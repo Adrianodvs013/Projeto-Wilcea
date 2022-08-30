@@ -10,8 +10,27 @@
     --cor07: #e9791a;
     --cor08: #ff9a3e;
     --cor09: #ffffff;
+
+    --fonte-padrao: arial, Verdana, Helvetica, Sans-serif;
 }
 
-body{
+header img{
+    border-radius: 50%;
+}
+
+header {
+    background-color: var(--cor02);
+    font-family: var(--fonte-padrao);
+    color: var(--cor09);
+}
+
+body {
+    background-color: var(--cor06);
+    font-family: var(--cor01);
+    color: var(--cor01);
+}
+
+nav {
     background-color: var(--cor08);
+    height: 30px;
 }

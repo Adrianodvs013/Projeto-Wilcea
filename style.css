@@ -1,5 +1,17 @@
 @charset "UtF-8";
 
+:root {
+    --cor01: #000000;
+    --cor02: #004578;
+    --cor03: #005a9e;
+    --cor04: #106ebe;
+    --cor05: #0078d4;
+    --cor06: #4fafff;
+    --cor07: #e9791a;
+    --cor08: #ff9a3e;
+    --cor09: #ffffff;
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: var(--cor08);
 }

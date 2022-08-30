@@ -34,3 +34,11 @@ nav {
     background-color: var(--cor08);
     height: 30px;
 }
+
+footer {
+    background-color: var(--cor02);
+}
+
+div{
+    background-color: var(--cor02);
+}

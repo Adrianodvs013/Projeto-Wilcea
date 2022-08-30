@@ -2,7 +2,7 @@
 
 Projeto aprendendo a aprender.
 
-*Observação - (Tentar sempre atulaizar e molhorar o codigo.)
+*Observação - (sempre molhorar o codigo.)
 
 Nesse projeto estpu aplicando os conhecimentos em HTML e CSS que eu adiquiri até aqui.
 O desafio é a criação de uma apagina web para uma aprofissional na áre da educação e pedagogia.

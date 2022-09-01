@@ -55,6 +55,31 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
     color: var(--cor01);
 }
 
+.primeira{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.primeira img{
+    height: 250px;
+    border-radius: 50%;
+}
+.primeira h2{
+    color: var(--cor06);
+    font-family: var(--fonte-padrao);
+    flex-direction: column;
+    align-items: center;     
+}
+.primeira p{
+    color: var(--cor06);
+    font-family: var(--fonte-padrao);
+    flex-direction: column;
+    align-items: center;    
+    padding: 15px;        
+}
+
 nav{ /*Defini, cor, fonte e cor da letra da barra de navegação*/
     background-color: var(--cor08);
     height: 20px;
@@ -77,7 +102,7 @@ nav a:hover{
     border-radius:08px;
 }
 
-div{/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tags ,
+div {/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tags ,
     div></div>*/
     background-color: var(--cor02);
     margin-top: 3px;
@@ -85,9 +110,11 @@ div{/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tags
     box-shadow: 0px 0px 10px var(--cor02);
 }
 
+
+
 main{  /*Muda as caracteristicas do conteudo principal*/
     min-width: 300px;
-    max-width: 1050px;
+    max-width: 1200px;
     margin: auto;
     padding: 20px;
     background-color: var(--cor09);   
@@ -101,20 +128,18 @@ main img { /*Muda o tam. da imagem no conteudo principal*/
     margin: auto;   
 }
 
-
-
 main h1{
     color: var(--cor01);
     font-family: var(--fonte-padrao);
 }
 
 main h2{
-    background-image: linear-gradient(to left, var(--cor02), transparent);
-    color: var(--cor01);
+    color: var(--cor06);
     font-family: var(--fonte-padrao);
 }
 
 main p{ /*Muda o tam. da da distancia do titulo pro texto*/
+    color: var(--cor06);
     margin: 15px 0px;
     text-indent: 35px;
     line-height: 1.5em;

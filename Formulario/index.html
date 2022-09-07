@@ -7,6 +7,61 @@
     <title>Formulario</title>
 </head>
 <body>
-    
+    <div>
+        <h1>Marque sua consulta agora mesmo!</h1>
+        <p>Preencha o formulário, que retornaremos o contato em instantes.</p>
+    </div>
+
+    <form>
+      <fieldset>
+        <div>
+            <label for="">Nome</label>
+            <input type="text" nome="Nome" id="Nome">
+        </div>
+
+        <div>
+            <label for="">Sobrenome</label>
+            <input type="text" nome="Sobreome" id="Sobrenome">
+        </div>
+
+        <div>
+            <label for="">Telefone</label>
+            <input type="number" nome="Telefone" id="Telefone">
+        </div>
+        
+        <div>
+            <label for="">Email</label>
+            <input type="email" nome="Email" id="Email">
+        </div>
+      </fieldset>
+     
+    <div>
+        <label for="">Qual especiadlidade você procura?</label>
+        <label for="">
+                <input type="radio" nome="neuro" value="Orientação profissional">Orientação profissional
+        </label>
+        <label for="">
+                <input type="radio" nome="neuro" value="neuropsicopedagogia">Neuropsicopedagogia
+        </label>
+        <label for="">
+                <input type="radio" nome="neuro" value="Orientação profissional">Neuropacoterapia
+        </label>
+        <label for="">
+            <input type="radio" nome="neuro" value="Reabilitação cognitiva">Reabilitação cognitiva
+        </label>
+    </div>
+
+    <div>
+        <label for="">Para qual Idade</label>
+        <select id="fase da vida da pessoa">
+            <option value="">Selecione</option>
+            <option value="">Criança</option>
+            <option value="">Adulto</option>
+            <option value="">Idoso</option>
+            <option value="">Necessidade Especial</option>
+        </select>
+    </div>
+     
+    </form>
 </body>
 </html>

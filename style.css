@@ -20,14 +20,14 @@
 }
 
 header{  /*Defini, cor, fonte e cor da letra no cabeçalho*/  
-    background-color: var(--cor02);
-    min-height: 100px;
+    background-color: var(--cor09);
+    min-height: 00px;
     color: var(--cor09);
     text-align: center;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 header h1{   /*Defini, cor, fonte e cor da letra nas linhas do cabeçalho*/
-    color: var(--cor09);
+    color: var(--cor08);
     font-family: var(--fonte-padrao);
     font-size: 3em;
     margin-bottom: 20px;
@@ -60,17 +60,17 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 25px;
+    padding: 0px;
 }
 .primeira img{
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
 }
 .primeira h2{
-    color: var(--cor06);
+    color: var(--cor09);
     font-family: var(--fonte-padrao);
-    flex-direction: column;
-    align-items: center;     
+    flex-direction: left;
+    align-items: left;     
 }
 .primeira p{
     color: var(--cor06);
@@ -81,7 +81,7 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
 }
 
 nav{ /*Defini, cor, fonte e cor da letra da barra de navegação*/
-    background-color: var(--cor08);
+    background-color: var(--cor09);
     height: 20px;
     padding: 10px;
     box-shadow: 5px 5px 8px var(--cor02);
@@ -104,9 +104,9 @@ nav a:hover{
 
 div {/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tags ,
     div></div>*/
-    background-color: var(--cor02);
-    margin-top: 3px;
-    margin-bottom: 10px;
+    background-color: var(--cor05);
+    margin-top: 0px;
+    margin-bottom: 0px;
     box-shadow: 0px 0px 10px var(--cor02);
 }
 
@@ -116,7 +116,7 @@ main{  /*Muda as caracteristicas do conteudo principal*/
     min-width: 300px;
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 00px;
     background-color: var(--cor09);   
     box-shadow: 5px 5px 5px var(--cor02);  
 
@@ -129,7 +129,7 @@ main img { /*Muda o tam. da imagem no conteudo principal*/
 }
 
 main h1{
-    color: var(--cor01);
+    color: var(--cor02);
     font-family: var(--fonte-padrao);
 }
 

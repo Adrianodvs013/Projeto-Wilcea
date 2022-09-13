@@ -22,30 +22,30 @@
 header{  /*Defini, cor, fonte e cor da letra no cabeçalho*/  
     background-color: var(--cor09);
     min-height: 00px;
-    color: var(--cor09);
+    color: var(--cor02);
     text-align: center;
-    padding-top: 0px;
+    
 }
+
 header h1{   /*Defini, cor, fonte e cor da letra nas linhas do cabeçalho*/
     color: var(--cor08);
     font-family: var(--fonte-padrao);
     font-size: 3em;
-    margin-bottom: 20px;
-    text-shadow: 3px 3px 0px var(--cor01)
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 0px var(--cor01)
 }
 
 header p{
-    color: var(--cor09);
+    color: var(--cor02);
     font-family: var(--fonte-padrao);
     font-size: 1.3em;
     padding-bottom: 35px;
     max-width: 500px;
     margin: auto;
-    text-shadow: var(--cor02)
 }
 
 header img{  /*coloca borda na omagem da logo*/      
-    border-radius: 50%;
+    border-radius: 30%;
     box-shadow: 04px 04px 04px var(--cor01);
 }
 
@@ -61,6 +61,10 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
     align-items: center;
     justify-content: space-around;
     padding: 0px;
+}
+
+.primeira titulo{
+    color: var(--cor01);
 }
 .primeira img{
     height: 200px;
@@ -81,14 +85,14 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
 }
 
 nav{ /*Defini, cor, fonte e cor da letra da barra de navegação*/
-    background-color: var(--cor09);
+    background-color: var(--cor07);
     height: 20px;
     padding: 10px;
     box-shadow: 5px 5px 8px var(--cor02);
 }
 
 nav a{
-    color: var(--cor02);
+    color: var(--cor018);
     padding: 10px;
     margin-top: 15%;
     text-decoration: none;
@@ -97,14 +101,14 @@ nav a{
 }
 
 nav a:hover{
-    background-color: var(--cor06);
+    background-color: var(--cor08);
     padding: 5px;
     border-radius:08px;
 }
 
 div {/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tags ,
     div></div>*/
-    background-color: var(--cor05);
+    background-color: var(--cor09);
     margin-top: 0px;
     margin-bottom: 0px;
     box-shadow: 0px 0px 10px var(--cor02);

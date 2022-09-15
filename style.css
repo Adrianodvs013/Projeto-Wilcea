@@ -15,39 +15,42 @@
 }
 
 *{   /* O asteristico define um pardrão uniersal. Define as margens de tudo*/
-    margin: 0px;
+    margin:0px;
     padding: 0px;
 }
 
-header{  /*Defini, cor, fonte e cor da letra no cabeçalho*/  
+.header{  /*Defini, cor, fonte e cor da letra no cabeçalho*/  
     background-color: var(--cor09);
     min-height: 00px;
     color: var(--cor02);
-    text-align: center;
-    
+    text-align: left;
 }
 
-header h1{   /*Defini, cor, fonte e cor da letra nas linhas do cabeçalho*/
+.header h1{   /*Defini, cor, fonte e cor da letra nas linhas do cabeçalho*/
     color: var(--cor08);
     font-family: var(--fonte-padrao);
     font-size: 3em;
-    margin-bottom: 0px;
-    text-shadow: 2px 2px 0px var(--cor01)
+    text-shadow: 2px 2px 0px var(--cor01);
+    text-align: center;
 }
 
-header p{
-    color: var(--cor02);
+.header p{
+    color: var(--cor01);
     font-family: var(--fonte-padrao);
     font-size: 1.3em;
     padding-bottom: 35px;
     max-width: 500px;
     margin: auto;
+    text-align: center;
 }
 
-header img{  /*coloca borda na omagem da logo*/      
-    border-radius: 30%;
+.header img{  /*coloca borda na magem da logo*/      
+    display: table-cell;
+    float: left;
+    border-radius: 50%;
     box-shadow: 04px 04px 04px var(--cor01);
 }
+
 
 body{  /*Defini, cor, fonte e cor da letra no body*/
     background-color: var(--cor06);
@@ -55,7 +58,7 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
     color: var(--cor01);
 }
 
-.primeira{
+.sobre mim{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,20 +66,20 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
     padding: 0px;
 }
 
-.primeira titulo{
+.sobre mim h2{
     color: var(--cor01);
 }
-.primeira img{
+.sobre mim img{
     height: 200px;
     border-radius: 50%;
 }
-.primeira h2{
+.sobre mim h2{
     color: var(--cor09);
     font-family: var(--fonte-padrao);
     flex-direction: left;
     align-items: left;     
 }
-.primeira p{
+.sobre mim p{
     color: var(--cor06);
     font-family: var(--fonte-padrao);
     flex-direction: column;

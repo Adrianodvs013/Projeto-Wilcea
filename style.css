@@ -120,10 +120,10 @@ div {/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tag
 
 
 main{  /*Muda as caracteristicas do conteudo principal*/
-    min-width: 300px;
-    max-width: 1200px;
-    margin: auto;
-    padding: 00px;
+    min-width: 500px;
+    max-width: 500px;
+    margin: 50px;
+    padding: 50px;
     background-color: var(--cor09);   
     box-shadow: 5px 5px 5px var(--cor02);  
 

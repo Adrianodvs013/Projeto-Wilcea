@@ -8,7 +8,7 @@
     --cor05: #0078d4;
     --cor06: #4fafff;
     --cor07: #e9791a;
-    --cor08: #ff9a3e;
+    --cor08: #e09248;
     --cor09: #ffffff;
 
     --fonte-padrao: arial, Verdana, Helvetica, Sans-serif;
@@ -16,14 +16,14 @@
 
 *{   /* O asteristico define um pardrão uniersal. Define as margens de tudo*/
     margin:0px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .header{  /*Defini, cor, fonte e cor da letra no cabeçalho*/  
     background-color: var(--cor09);
     min-height: 00px;
-    color: var(--cor02);
-    text-align: left;
+    color: var(--cor07);
+    text-align: center;
 }
 
 .header h1{   /*Defini, cor, fonte e cor da letra nas linhas do cabeçalho*/
@@ -35,11 +35,11 @@
 }
 
 .header p{
-    color: var(--cor01);
+    color: var(--cor09);
     font-family: var(--fonte-padrao);
     font-size: 1.3em;
     padding-bottom: 35px;
-    max-width: 500px;
+    max-width: 200px;
     margin: auto;
     text-align: center;
 }
@@ -53,7 +53,7 @@
 
 
 body{  /*Defini, cor, fonte e cor da letra no body*/
-    background-color: var(--cor06);
+    background-color: var(--cor09);
     font-family: var(--cor01);
     color: var(--cor01);
 }
@@ -111,10 +111,10 @@ nav a:hover{
 
 div {/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tags ,
     div></div>*/
-    background-color: var(--cor09);
+    background-color: var(--cor06);
     margin-top: 0px;
     margin-bottom: 0px;
-    box-shadow: 0px 0px 10px var(--cor02);
+    box-shadow: 0px 0px 00px var(--cor02);
 }
 
 

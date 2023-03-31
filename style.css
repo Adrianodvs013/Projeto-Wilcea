@@ -16,7 +16,7 @@
 
 *{   /* O asteristico define um pardrão uniersal. Define as margens de tudo*/
     margin:0px;
-    padding: 0px;
+    padding: 10px;
 }
 
 .header{  /*Defini, cor, fonte e cor da letra no cabeçalho*/  
@@ -63,14 +63,14 @@ body{  /*Defini, cor, fonte e cor da letra no body*/
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 0px;
+    padding: 10px;
 }
 
 .sobre mim h2{
     color: var(--cor01);
 }
 .sobre mim img{
-    height: 200px;
+    height: 100px;
     border-radius: 50%;
 }
 .sobre mim h2{
@@ -120,10 +120,10 @@ div {/*Defini as caracteriaticas em uma Divisão que eu criei no html com as tag
 
 
 main{  /*Muda as caracteristicas do conteudo principal*/
-    min-width: 300px;
-    max-width: 1200px;
-    margin: auto;
-    padding: 00px;
+    min-width: 50px;
+    max-width: 1500px;
+    margin: 350px;
+    padding: 250px;
     background-color: var(--cor09);   
     box-shadow: 5px 5px 5px var(--cor02);  
 

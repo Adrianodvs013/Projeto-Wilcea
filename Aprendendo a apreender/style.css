@@ -3,6 +3,14 @@
 	color: rgb(0, 3, 158);
 }
 
+.nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 9px;
+}
+
 .caixa {
 	padding: 60px 0;
 	border-bottom: 54px solid #ffffff;
